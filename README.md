@@ -1,4 +1,4 @@
-📊 Loan Approval Analysis and Risk Assessment
+# **📊 Loan Approval Analysis and Risk Assessment**
 
 This project analyzes a bank loan dataset to provide insights into loan approval patterns, credit risk, and financial behavior. It uses SQL (MySQL) for data cleaning and Python (Pandas, Seaborn, Matplotlib) for exploratory data analysis (EDA) and visualization.
 
@@ -18,12 +18,7 @@ This project analyzes a bank loan dataset to provide insights into loan approval
 
 3. **Visualizations**
 
-   Sure! Instead of “KDE plot,” you can use a more formal term like **“density distribution plot.”**
-
-Here’s the updated section:
-
----
-
+  
 ### 3️⃣ Visualizations
 
 * **Loan Approval:** Pie chart of approved vs declined loans.
