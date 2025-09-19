@@ -19,7 +19,7 @@ This project analyzes a bank loan dataset to provide insights into loan approval
 3. **Visualizations**
 
   
-### 3️⃣ Visualizations
+
 
 * **Loan Approval:** Pie chart of approved vs declined loans.
 * **Credit Score:** Density distribution plot showing spread of credit scores.
