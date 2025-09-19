@@ -50,12 +50,12 @@ This project analyzes a bank loan dataset to provide insights into loan approval
 
 ## ✅ Key Insights
 
-*Higher credit scores strongly correlate with loan approvals.
+* Higher credit scores strongly correlate with loan approvals.
 
-*Applicants with lower debt-to-income ratios are more likely to get approved.
+* Applicants with lower debt-to-income ratios are more likely to get approved.
 
-*Employment status significantly impacts approval rates and risk scores.
+* Employment status significantly impacts approval rates and risk scores.
 
-*Income alone does not guarantee approval—credit history and risk score are key.
+* Income alone does not guarantee approval—credit history and risk score are key.
 ---
 
