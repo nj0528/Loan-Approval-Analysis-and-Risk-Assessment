@@ -1,33 +1,64 @@
-# Loan-Default-Risk-Analytics-in-Banking
+📊 Loan Approval Analysis and Risk Assessment
 
-# 🏦 Loan Default Risk Analytics in Banking | End-to-End Data Analytics Project
+This project analyzes a bank loan dataset to  provides insights into loan approval patterns, credit risk, and financial behavior. Using SQL (MySQL) for data cleaning and Python (Pandas, Seaborn, Matplotlib) for exploratory data analysis (EDA) and visualization.
+---
 
-This is a comprehensive **end-to-end data analytics project** simulating a real-world banking scenario. It walks through the full data analysis lifecycle — from **data ingestion, cleaning, exploratory data analysis (EDA), and risk profiling**, to **generating actionable insights using Python visualizations**.
+## 🚀 Workflow
 
-> 📌 **Goal**: Analyze customer profiles to assess risk and identify patterns that can help minimize loan default rates.
+1. **Data Cleaning (MySQL)**
+
+   * Converted `ApplicationDate` to date format.
+   * Removed duplicates, invalid ages, and negative values.
+   * Standardized `EmploymentStatus`.
+
+2. **EDA (Python in Colab)**
+
+   * Summary statistics & missing value checks.
+   * Checked unique values in categorical columns. 
+   * Correlation analysis.
+
+3. **Visualizations**
+
+   Sure! Instead of “KDE plot,” you can use a more formal term like **“density distribution plot.”**
+
+Here’s the updated section:
 
 ---
 
-## 📊 Project Overview
+### 3️⃣ Visualizations
 
-- **Domain**: Banking & Financial Services  
-- **Problem Statement**:  
-  Understand how banks can reduce the risk of loan defaults by analyzing customer data and credit behavior.
-
-- **Objective**:  
-  Perform risk analytics using real-world-style banking data and extract insights through Python-based EDA and visualizations.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-| Tool/Library               | Purpose                                |
-|----------------------------|----------------------------------------|
-| Python (`pandas`, `matplotlib`, `seaborn`) | Data cleaning, analysis, and visualization |
-| MySQL                      | Structured data storage and querying   |
-| MySQL Connector            | Python-MySQL integration               |
-| Excel / CSV                | Initial raw data source                |
+* **Loan Approval:** Pie chart of approved vs declined loans.
+* **Credit Score:** Density distribution plot showing spread of credit scores.
+* **Income vs Approval:** Box plot by loan status.
+* **Loan vs Interest:** Scatter plot of amount and rate.
+* **Debt vs Income:** Scatter plot by approval.
+* **Loan Approval Rate by Employment & Risk Score:** Pivot table heatmap showing average risk scores.
+* **Feature Correlation:** Heatmap of numerical variables.
 
 ---
 
+
+
+## 📂 Dataset Columns
+
+* `ApplicationDate`, `Age`, `EmploymentStatus`, `AnnualIncome`, `CreditScore`
+* `LoanAmount`, `MonthlyIncome`, `MonthlyDebtPayments`, `TotalDebtToIncomeRatio`
+* `LoanApproved`, `InterestRate`, `MonthlyLoanPayment`, `RiskScore`
+
+---
+
+## ⚙️ Tools
+
+* **SQL:** MySQL Workbench
+* **Python:** Pandas, Matplotlib, Seaborn
+
+---
+
+## ✅ Key Insights
+
+* Higher credit scores → higher approval chances.
+* Lower debt-to-income ratio → safer applicants.
+* Employment status affects approval & risk.
+
+---
 
