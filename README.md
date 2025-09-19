@@ -50,12 +50,14 @@ This project analyzes a bank loan dataset to provide insights into loan approval
 
 ## ✅ Key Insights
 
-* Higher credit scores strongly correlate with loan approvals.
+* 76% of loan applications were denied, indicating strict approval standards.
 
-* Applicants with lower debt-to-income ratios are more likely to get approved.
+* Higher income and lower debt-to-income ratios increase the likelihood of approval.
 
-* Employment status significantly impacts approval rates and risk scores.
+* Strong credit scores and low risk scores favor loan approval.
 
-* Income alone does not guarantee approval—credit history and risk score are key.
+* Smaller loan amounts and lower interest rates are more likely to be approved.
+
+* Employment is associated with lower risk and higher chances of approval.
 ---
 
