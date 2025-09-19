@@ -1,7 +1,6 @@
 📊 Loan Approval Analysis and Risk Assessment
 
-This project analyzes a bank loan dataset to  provides insights into loan approval patterns, credit risk, and financial behavior. Using SQL (MySQL) for data cleaning and Python (Pandas, Seaborn, Matplotlib) for exploratory data analysis (EDA) and visualization.
----
+This project analyzes a bank loan dataset to provide insights into loan approval patterns, credit risk, and financial behavior. It uses SQL (MySQL) for data cleaning and Python (Pandas, Seaborn, Matplotlib) for exploratory data analysis (EDA) and visualization.
 
 ## 🚀 Workflow
 
